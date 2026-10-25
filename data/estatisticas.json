@@ -1,0 +1,175 @@
+{
+  "seed": 42,
+  "linhas": {
+    "train": 4258,
+    "test": 816,
+    "referencia": 10
+  },
+  "estados_triagem_unicos": 3527,
+  "contradicoes": {
+    "train": 0,
+    "test": 0
+  },
+  "julgamento_estados_compartilhados_treino_teste": 56,
+  "workflows_train": {
+    "smat_triagem": 2954,
+    "smat_julgamento": 1304
+  },
+  "familias_train": {
+    "texto": {
+      "instancias": 564,
+      "interferencia": 284,
+      "modos": {
+        "ambas": 277,
+        "perdida": 287
+      },
+      "taxa_interferencia": 0.504
+    },
+    "mapa": {
+      "instancias": 619,
+      "interferencia": 287,
+      "modos": {
+        "chaves_independentes": 332,
+        "conflito": 287
+      },
+      "taxa_interferencia": 0.464
+    },
+    "flags": {
+      "instancias": 603,
+      "interferencia": 204,
+      "modos": {
+        "ok": 199,
+        "log": 200,
+        "efeito": 204
+      },
+      "taxa_interferencia": 0.338
+    },
+    "contador": {
+      "instancias": 586,
+      "interferencia": 229,
+      "modos": {
+        "t3a2b3": 20,
+        "t2a2b2": 28,
+        "t3a1b2": 21,
+        "t1a1b2": 27,
+        "t1a1b3": 20,
+        "t2a3b3": 19,
+        "t2a1b3": 26,
+        "t1a2b2": 24,
+        "t3a2b1": 27,
+        "t1a3b2": 25,
+        "t3a1b3": 20,
+        "t1a3b1": 21,
+        "t1a2b3": 20,
+        "t2a2b1": 19,
+        "t1a1b1": 23,
+        "t3a2b2": 22,
+        "t3a1b1": 20,
+        "t2a3b1": 15,
+        "t1a2b1": 14,
+        "t2a3b2": 14,
+        "t2a1b1": 19,
+        "t3a3b1": 21,
+        "t1a3b3": 18,
+        "t2a2b3": 27,
+        "t3a3b2": 26,
+        "t2a1b2": 22,
+        "t3a3b3": 28
+      },
+      "taxa_interferencia": 0.391
+    },
+    "lista": {
+      "instancias": 582,
+      "interferencia": 300,
+      "modos": {
+        "perdida": 300,
+        "ambas": 282
+      },
+      "taxa_interferencia": 0.515
+    }
+  },
+  "familias_test": {
+    "texto": {
+      "instancias": 106,
+      "interferencia": 50,
+      "modos": {
+        "perdida": 50,
+        "ambas": 56
+      },
+      "taxa_interferencia": 0.472
+    },
+    "flags": {
+      "instancias": 118,
+      "interferencia": 48,
+      "modos": {
+        "log": 33,
+        "ok": 37,
+        "efeito": 48
+      },
+      "taxa_interferencia": 0.407
+    },
+    "lista": {
+      "instancias": 116,
+      "interferencia": 52,
+      "modos": {
+        "perdida": 52,
+        "ambas": 64
+      },
+      "taxa_interferencia": 0.448
+    },
+    "mapa": {
+      "instancias": 120,
+      "interferencia": 52,
+      "modos": {
+        "conflito": 52,
+        "chaves_independentes": 68
+      },
+      "taxa_interferencia": 0.433
+    },
+    "contador": {
+      "instancias": 113,
+      "interferencia": 41,
+      "modos": {
+        "t1a3b3": 8,
+        "t2a1b2": 8,
+        "t2a2b2": 5,
+        "t1a2b2": 5,
+        "t3a3b3": 3,
+        "t3a2b1": 4,
+        "t1a1b2": 6,
+        "t3a1b1": 8,
+        "t3a1b3": 3,
+        "t3a2b3": 7,
+        "t3a3b1": 3,
+        "t2a3b1": 4,
+        "t2a2b3": 2,
+        "t2a1b3": 4,
+        "t1a2b3": 2,
+        "t1a3b2": 5,
+        "t3a3b2": 3,
+        "t1a2b1": 5,
+        "t3a2b2": 6,
+        "t2a1b1": 4,
+        "t2a3b2": 4,
+        "t3a1b2": 2,
+        "t2a3b3": 4,
+        "t2a2b1": 3,
+        "t1a3b1": 3,
+        "t1a1b3": 2
+      },
+      "taxa_interferencia": 0.363
+    }
+  },
+  "configs_proxy": [
+    "ZS-T0.0",
+    "ZS-T0.7",
+    "1S-T0.0",
+    "1S-T0.7"
+  ],
+  "contextos_proxy": [
+    "corpo",
+    "corpo_resumo",
+    "corpo_resumo_atributos",
+    "corpo_resumo_construtores"
+  ]
+}
